@@ -57,7 +57,7 @@ module.exports.datastores = {
     password:'PASSWORD',
     port:'3306',
     host:'localhost',
-    database: 'turing'
+    database: 'turing-mg'
 
   },
 

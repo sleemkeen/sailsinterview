@@ -29,11 +29,12 @@ module.exports.routes = {
    */
 
 
-  // 'POST /categories' : 'CategoryController.create',
-  // 'GET /categories' : 'CategoryController.find',
-  // 'GET /categories/:categories_id' : 'CategoryController.findOne',
-  // 'PATCH /categories/:categories_id' : 'CategoryController.update',
-  // 'DELETE /categories/:categories_id' : 'CategoryController.delete',
+  'POST /categories' : 'CategoryController.create',
+  'GET /categories/inProduct' : 'CategoryController.findByProduct',
+  'GET /categories' : 'CategoryController.find',
+  'GET /categories/:category_id' : 'CategoryController.findOne',
+  'PATCH /categories/:category_id' : 'CategoryController.update',
+  'DELETE /categories/:category_id' : 'CategoryController.delete',
 
 
 };
